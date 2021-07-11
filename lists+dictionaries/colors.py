@@ -9,7 +9,3 @@ template = "color_name: {}, color_code: {}"
 
 for key in colors:
     print(template.format(key, colors[key]))
-
-# това не работи, отново не знам защо, би трябвало да работи
-#for key, value in colors:
-#    print(template.format(key, value))
